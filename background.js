@@ -92,8 +92,9 @@ function findDevicesWithMultiplier(width, height, multiplier) {
 }
 function findDevices(width, height) {
   var multiplier = 100000;
-  while (multiplier >= 10) {
+  while (multiplier >= 100) {
     var devices = findDevicesWithMultiplier(width, height, multiplier);
+    if (devices.length >= 3) return [];
     if (devices.length > 0) return devices;
     multiplier /= 10;
   }
