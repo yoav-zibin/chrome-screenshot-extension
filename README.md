@@ -8,4 +8,4 @@ Way to use the extension:
 4) Click on the camera icon to save the printscreen as a PNG image file in your ~/Downloads folder,
 according to Apple's specs (e.g., iPhone4 as 640x960 png, iPhone6p as 1242x2208 png, etc).
 
-[PrintscreenExample.png]
+![Example usage](PrintscreenExample.png)
